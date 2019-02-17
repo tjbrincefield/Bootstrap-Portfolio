@@ -10,12 +10,13 @@
     <body>
             <nav>
 <!--Im having the same issue with getting this nav bar to stick to the top of the page-->
-                <div class="container">
+                <div class="main-container">
                     <div class="row">
                         <div class="col col-md-3">
                             <p class="navbar-brand">Tiffany Brincefield</p>
                         </div>
                     
+<!--How do i get these items to push to the right???-->
                         <div class="col col-md-9">
                             <a class="nav-item" href="index.html">About</a>
 
@@ -54,13 +55,17 @@
                             text-align: center;
                             text-decoration: none;
                             background: #4aaaa5;
-                            margin-left: 15%;
                         }
 
-                        .navbar-nav {
-                            color: #ffffff;
-                            background: #ffffff;
-                            border-bottom: 2px solid #cccccc;
+                        .nav-item {
+                            float: right;
+                        }
+
+                        .main-container {
+                            max-width: 960px;
+                            margin-bottom: 15px;
+                            background-color: #ffffff;
+                        
                         }
 
                         footer {
@@ -83,6 +88,7 @@
         <div class="container">
             <div class="row">
 <!--I want to get the bottom border under these words-->
+
                 <div class="col col-lg-12"><h1><strong>About Me</h1></strong>
                     </div>
                     </div>
